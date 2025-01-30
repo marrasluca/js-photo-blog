@@ -16,7 +16,8 @@ fetch(endpoint, methodFetch)
         const {date, id, title, url} = element
         row.innerHTML +=
         `
-        <div class="card col-sm-12 p-3 position-relative">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card p-3 position-relative">
                 <img src="./assets_day1/img/pin.svg" alt="" class="position-absolute top-0 start-50 translate-middle">
                 <img class="card-image-top" src='${url}'  alt='${title}' />
                 <div class="card-body">
@@ -24,6 +25,7 @@ fetch(endpoint, methodFetch)
                     <h3 class="card-title text-uppercase">${title}</h3>
                 </div>
             </div>
+        </div>
         `
     })
 
