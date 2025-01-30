@@ -6,10 +6,11 @@
 
 
 h1{
-    font-family: 'Edu Tas Beginner', sans-serif;
+    font-family: 'Edu TAS Beginner', sans-serif;
+    font-size: 50px;
 }
 
-.card-text{
+.card-title{
     font-family: 'Sometype Mono', 'monospace';
 }
 
@@ -27,3 +28,7 @@ main{
     background-image: url(./assets_day1/img/cork.png);
     height: auto;
 }
+
+/* .row {
+    gap: 20px;
+} */
