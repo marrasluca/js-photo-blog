@@ -1,0 +1,12 @@
+header {
+    background-image: url(./assets_day1/img/wall.png);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-image: url(./assets_day1/img/cork.png);
+    height: auto;
+}
