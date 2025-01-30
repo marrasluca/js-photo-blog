@@ -1,3 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+h1{
+    font-family: 'Edu Tas Beginner', sans-serif;
+}
+
+.card-text{
+    font-family: 'Sometype Mono', 'monospace';
+}
+
+
+
 header {
     background-image: url(./assets_day1/img/wall.png);
     height: 20vh;
